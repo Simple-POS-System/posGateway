@@ -1,11 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1874c7c6-f1e5-4653-8f8a-217acb483c1a" name="Changes" comment="" />
+    <list default="true" id="1874c7c6-f1e5-4653-8f8a-217acb483c1a" name="Changes" comment="initial project file(connected all microservices)">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ead/posgateway/Auth/AuthenticationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ead/posgateway/Auth/AuthenticationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ead/posgateway/Auth/AuthenticationResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ead/posgateway/Auth/AuthenticationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ead/posgateway/Auth/RegisterRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ead/posgateway/Config/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ead/posgateway/Config/JwtAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ead/posgateway/Config/JwtService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ead/posgateway/Config/SecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ead/posgateway/Demo/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ead/posgateway/User/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ead/posgateway/User/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ead/posgateway/User/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -21,19 +53,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/diniranga/Documents/GitHub/posGateway&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/diniranga/Documents/GitHub/posGateway/src/main/java/com/ead/posgateway",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.ead.posgateway.Auth" />
+      <recent name="com.ead.posgateway.Config" />
+      <recent name="com.ead.posgateway.User" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/ead/posgateway" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="PosGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="posGateway" />
@@ -54,10 +110,24 @@
       <workItem from="1699172621483" duration="40000" />
       <workItem from="1699172702065" duration="9000" />
       <workItem from="1699172732982" duration="72000" />
+      <workItem from="1699172810564" duration="16671000" />
     </task>
+    <task id="LOCAL-00001" summary="initial project file(connected all microservices)">
+      <option name="closed" value="true" />
+      <created>1699172900615</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1699172900615</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial project file(connected all microservices)" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial project file(connected all microservices)" />
   </component>
 </project>
